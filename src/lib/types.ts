@@ -47,6 +47,7 @@ export interface ResumeData {
       href: string;
     };
   }>;
+  publications?: Publication[];
 }
 
 // GraphQL compatible types (without React components)
@@ -104,6 +105,15 @@ export interface GraphQLMe {
   work: GraphQLWork[];
   skills: string[];
   projects: GraphQLProject[];
+}
+
+export interface Publication {
+  title: string;
+  venue: string;
+  link?: {
+    label: string;
+    href: string;
+  };
 }
 
 // Helper function to convert React content to string
