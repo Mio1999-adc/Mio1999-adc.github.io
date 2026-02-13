@@ -6,6 +6,7 @@ export const RESUME_DATA: ResumeData = {
   initials: "LA",
   location: "Hanoi, Vietnam",
   locationLink: "",
+  personalWebsiteUrl: "https://mio1999-adc.github.io",
   about:
     "PhD candidate in high-performance computing (distributed, parallel, and quantum computing), operating systems, and machine learning systems.",
   summary: <></>,
