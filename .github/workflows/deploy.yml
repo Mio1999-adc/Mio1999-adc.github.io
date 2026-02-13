@@ -65,24 +65,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-```
-
----
-
-### Step 3: Create .gitignore (if you don't have one)
-
-Make sure these are in `.gitignore`:
-```
-# dependencies
-node_modules
-.pnpm-store
-
-# next.js
-.next/
-out/
-build
-dist
-
-# misc
-.DS_Store
-*.log
