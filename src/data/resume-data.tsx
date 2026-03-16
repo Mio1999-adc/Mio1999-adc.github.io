@@ -6,7 +6,7 @@ export const RESUME_DATA: ResumeData = {
   initials: "LA",
   location: "Hanoi, Vietnam",
   locationLink: "",
-  personalWebsiteUrl: "https://mio1999-adc.github.io",
+  personalWebsiteUrl: "https://scholar.google.com/citations?user=nfuNA3wAAAAJ&hl=en",
   about:
     "PhD candidate in high-performance computing (distributed, parallel, and quantum computing), operating systems, and machine learning systems.",
   summary: <></>,
@@ -36,7 +36,7 @@ export const RESUME_DATA: ResumeData = {
       school: "Chung-Ang University",
       degree: "Integrated MS-Ph.D in Computer Science and Engineering",
       start: "2022",
-      end: "2024-Transfering",
+      end: "2025-Transfering",
     },
     {
       school: "Hongik University",
@@ -81,7 +81,7 @@ export const RESUME_DATA: ResumeData = {
       },
     },
     {
-      title: "Acceleration for Quantum Simulation",
+      title: "Acceleration for Quantum Simulation on GPUs",
       techStack: [
         "PennyLane",
         "TorchQuantum",
@@ -123,19 +123,51 @@ export const RESUME_DATA: ResumeData = {
   ],
 publications: [
     {
-      title: "TwinBooster: Fine-Grained Operator-Level Partitioning and Multi-Stream Scheduling for Large-Scale LLM Training",
-      venue: "Under Review, 2025",
+      title: "EdgeUP: Utilization and Priority-Aware Load Balancing in Edge Computing",
+      venue: "Published, 2025",
       link: {
-        label: "arXiv",
-        href: "#",
+        label: "Electronics",
+        href: "https://www.mdpi.com/2079-9292/14/3/565",
       },
     },
     {
-      title: "GPU-Accelerated Quantum Simulation via Dynamic Kernel Fusion and State Vector Optimization",
-      venue: "Under Review, 2024",
+      title: "Comprehensive survey of sensor data verification in internet of things",
+      venue: "Published, 2023",
       link: {
-        label: "arXiv",
-        href: "#",
+        label: "IEEE Access",
+        href: "https://ieeexplore.ieee.org/document/10130670",
+      },
+    },
+     {
+      title: "Toward Acceleration of Variational Quantum Classifier Simulation on GPUs",
+      venue: "Accepted, 2025",
+      link: {
+        label: "SOICT'25 Proceedings",
+        href: "",
+      },
+    },
+     {
+      title: "YOLO-PT: One-Shot Framework for 3D-based Progress Tracking",
+      venue: "Accepted, 2026",
+      link: {
+        label: "ICGHIT'26 Proceedings",
+        href: "",
+      },
+    },
+     {
+      title: "QuSim-Sed: Scheduling-Driven Acceleration for Hybrid Classical Quantum Simulation on GPU",
+      venue: "Under-review, 2026",
+      link: {
+        label: "Euro-Par'26",
+        href: "",
+      },
+    },
+     {
+      title: "High-Performance Variational Quantum Circuit Simulation on GPUs",
+      venue: "Under-review, 2026",
+      link: {
+        label: "IEEE Access",
+        href: "",
       },
     },
   ],
