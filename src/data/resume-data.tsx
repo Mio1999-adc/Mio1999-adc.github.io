@@ -120,6 +120,24 @@ export const RESUME_DATA: ResumeData = {
         href: "",
       },
     },
+    {
+      title: "Haan.Ocean",
+      techStack: ["Local Brand", "Fashion Design", "Vietnam"],
+      description: "This is a fashion project from my twin sister",
+      link: {
+        label: "",
+        href: "https://www.instagram.com/haan.ocean.official/",
+      },
+    },
+    {
+      title: "Haan.L'art",
+      techStack: ["Da Nang", "Art Workshops", "Drawing Classes for Kids", "Creativity",],
+      description: "This is an art project from my twin sister. Visit to enjoy a friendly and cozy env. Plus, to be recommended to wonderful local places",
+      link: {
+        label: "",
+        href: "https://www.instagram.com/haanlart.danang/",
+      },
+    },
   ],
 publications: [
     {
