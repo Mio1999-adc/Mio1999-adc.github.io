@@ -140,20 +140,20 @@ export const RESUME_DATA: ResumeData = {
     },
   ],
 publications: [
+     {
+      title: "Comprehensive survey of sensor data verification in internet of things",
+      venue: "Published, 2023",
+      link: {
+        label: "IEEE Access",
+        href: "https://ieeexplore.ieee.org/document/10130670",
+      },
+    },
     {
       title: "EdgeUP: Utilization and Priority-Aware Load Balancing in Edge Computing",
       venue: "Published, 2025",
       link: {
         label: "Electronics",
         href: "https://www.mdpi.com/2079-9292/14/3/565",
-      },
-    },
-    {
-      title: "Comprehensive survey of sensor data verification in internet of things",
-      venue: "Published, 2023",
-      link: {
-        label: "IEEE Access",
-        href: "https://ieeexplore.ieee.org/document/10130670",
       },
     },
      {
